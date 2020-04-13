@@ -37,7 +37,10 @@ print(distance_from_zero(input = -1))
 #########################
 ##function 4 INSTRUCTIONS ARE UNCLEAR##########################################################################
 def computepay(hours, rate):
-    return hours*rate +25
+    if hours <= 40:
+        return hours * rate
+    else:
+        return 40*rate + (hours-40)*rate*1.5
 
 print(computepay(45,10))
 
