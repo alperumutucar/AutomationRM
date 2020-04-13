@@ -43,7 +43,7 @@ def computepay(hours, rate):
     else:
         return 40*rate + (hours-40)*rate*1.5
 
-print(computepay(45,10))
+print(computepay(41,10))
 
 ########################
 ##function 5
@@ -157,3 +157,5 @@ class Point3D(): #class Point3D(Point3D):
 
 my_point = Point3D(x=1, y=2, z=3)
 print(my_point)
+####githuba gidiyor mu test 13.04.2020 12.00
+###bir şeyler ekliyorum ama pushlanmıyor
