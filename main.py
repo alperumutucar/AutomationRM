@@ -119,6 +119,7 @@ class Song():
         result = ''
         for element in self.lyrics:
             result += str(element)
+            result += "\n"
         return result
 
 happy_bday = Song(lyrics = ["May god bless you, ", "Have a sunshine on you,", "Happy Birthday to you !"])
