@@ -43,7 +43,7 @@ def computepay(hours, rate):
     else:
         return 40*rate + (hours-40)*rate*1.5
 
-print(computepay(41,10))
+print(computepay(45,10))
 
 ########################
 ##function 5
