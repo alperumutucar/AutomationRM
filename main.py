@@ -159,3 +159,4 @@ my_point = Point3D(x=1, y=2, z=3)
 print(my_point)
 ####githuba gidiyor mu test 13.04.2020 12.00
 ###bir şeyler ekliyorum ama pushlanmıyor
+##düzeldi
